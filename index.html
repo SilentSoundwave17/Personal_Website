@@ -35,8 +35,6 @@ display: block;
 }
 
 p , #subhead {
-background-color: #eee;
-opacity: .9;
 font-weight: lighter;
 }
 
@@ -72,22 +70,6 @@ margin-top: 0;
 margin-bottom: 0;
   }
   
-  @media only screen and (max-width: 600px) {
-    body {
-       background-color: yellow;
-        width: 100%;
-        height: auto;
-    }
-    
-    img {
-      width: 100%;
-    }
-    
-    p, h1, h2 {
-      width: 15em;
-    }
-    
-  }
     
     @media only screen and (min-width: 601px) {
       img {
@@ -114,7 +96,7 @@ margin-bottom: 0;
     border-radius: 50%;
     top: -200px;
     left: 60%;
-    
+    z-index: -1;
   }
   
   .circle_2 {
@@ -143,6 +125,10 @@ margin-bottom: 0;
     border: 3px solid;
   }
   
+  li a:hover{
+    background-color: #b366ff;
+  }
+  
 </style>
   
 </head>
@@ -165,7 +151,14 @@ margin-bottom: 0;
   <div>
     <h1> Clarissa <br> Chamberlain </h1>
   </div>
+    
+    <p>
+      Hello! Bonjour! Welcome to my portfolio!
+      Feel free to click through the pages and check out some projects that I was very proud to be a part of.
+    </p>
+    
     </div>
+  
     
 </body>
 </html>
